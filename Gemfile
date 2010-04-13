@@ -14,7 +14,10 @@ gem 'jeremymcanally-context', :require => 'context'
 
 gem 'jeremymcanally-matchy', :require => 'matchy'
 
+gem 'technicalpickles-jeweler', :require => 'jeweler'
+
 gem 'ZenTest'
 gem 'minitest'
 gem 'ruby-debug'
 gem 'mocha'
+gem 'rcov'
