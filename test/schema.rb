@@ -3,6 +3,11 @@ ActiveRecord::Schema.define(:version => 0) do
     t.string  :title
   end
 
+  create_table :taggable_cached_models do |t|
+    t.string  :title
+    t.string  :cached_tag_list
+  end
+
   create_table :tags do |t|
     t.string :name
     t.string :namespace
